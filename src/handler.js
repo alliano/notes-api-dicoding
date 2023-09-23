@@ -22,7 +22,7 @@ const addNoteHandler = (request, h) => {
     });
     // example to allow cors origin
     // response.header('Access-Control-Allow-Origin', 'http://notesapp-v1.dicodingacademy.com');
-    response.code(200);
+    response.code(201);
     return response;
   }
   const response = h.response({
